@@ -1,2 +1,3 @@
 # Market-Research-Assistant
-Automated market news and price alert pipeline built with Zapier." Then go ahead and click Create repository
+Automated market news and price alert pipeline built with Zapier.
+The problem is that staying on top of market moves for a watchlist ticker means manually checking multiple news sites and price charts every day, which doesn't scale. My approach was building a two-part automation using Zapier. One flow watches a financial news feed and logs every new headline into a Google Sheet automatically. A second flow runs hourly, pulls the live price and percent change for a chosen ETF, and emails a formatted update. Tools used are Zapier, Google Sheets, Gmail, and an RSS feed. The result is a pipeline that runs with no manual checking needed. Next steps are combining both streams into one AI-generated brief, adding more tickers, and adding a significance threshold for alerts.
